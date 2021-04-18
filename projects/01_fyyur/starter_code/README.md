@@ -162,7 +162,7 @@ source env/bin/activate
 ```
 >**Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
 ```
-source env/Scripts/activate
+.\env\Scripts\activate
 ```
 
 4. **Install the dependencies:**
@@ -171,6 +171,9 @@ pip install -r requirements.txt
 ```
 
 5. **Run the development server:**
+
+**Note** - In Windows, use 'set' instead of 'export':
+
 ```
 export FLASK_APP=myapp
 export FLASK_ENV=development # enables debug mode
