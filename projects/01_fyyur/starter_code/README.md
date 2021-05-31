@@ -164,6 +164,10 @@ source env/bin/activate
 ```
 .\env\Scripts\activate
 ```
+P.S: For the error "ps1 is not digitally signed", enter the command
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
 
 4. **Install the dependencies:**
 ```
